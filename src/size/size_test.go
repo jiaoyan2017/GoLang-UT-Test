@@ -9,6 +9,8 @@ var tests = []Test{
     {5, "small"},
     {99, "big"},
     {0, "zero"},
+    {998, "huge"},
+    {2000, "enormous"},
 }
 func TestSize(t *testing.T) {
     for i, test := range tests {

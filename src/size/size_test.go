@@ -7,6 +7,8 @@ type Test struct {
 var tests = []Test{
     {-1, "negative"},
     {5, "small"},
+    {99, "big"},
+    {0, "zero"},
 }
 func TestSize(t *testing.T) {
     for i, test := range tests {

@@ -10,7 +10,7 @@ var tests = []Test{
     {99, "big"},
     {0, "zero"},
     {998, "huge"},
-    {2000, "enormous"},
+    {3000, "enormous"},
 }
 func TestSize(t *testing.T) {
     for i, test := range tests {
